@@ -1665,7 +1665,7 @@ _sp.check_output = _patched_check_output
         // build.fallback (Python Luppo'deki ctx.config.values.build.fallback)
         let fallback_urls = [
             self.config.build.fallback.trim_end_matches('/'),
-            "https://source.antolun.com",
+            "https://source.tuseco.com",
         ];
         if let Some(archive_name) = std::path::Path::new(&url).file_name() {
             if let Some(name) = archive_name.to_str() {

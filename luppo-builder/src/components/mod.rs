@@ -25,8 +25,8 @@ impl Component {
             summaries: vec![("en".to_string(), "FIXME".to_string())],
             descriptions: vec![("en".to_string(), "FIXME".to_string())],
             group: "FIXME".to_string(),
-            maintainer_name: "Antolun Community".to_string(),
-            maintainer_email: "admins@antolun.com".to_string(),
+            maintainer_name: "TUSECO".to_string(),
+            maintainer_email: "admins@tuseco.com".to_string(),
         }
     }
 }
@@ -73,10 +73,10 @@ struct ComponentEntry {
 }
 
 fn default_mname() -> String {
-    "Antolun Community".to_string()
+    "TUSECO".to_string()
 }
 fn default_memail() -> String {
-    "admins@antolun.com".to_string()
+    "admins@tuseco.com".to_string()
 }
 
 #[allow(dead_code)]

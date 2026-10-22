@@ -22,7 +22,7 @@ Aşağıdaki checklist, `luppo`'in tüm yeteneklerini gerçek bir Luppo Linux/Lu
 
 ### 1. Depo Yönetimi (Repository Management)
 
-- [x] **Depo ekle:** `luppo ar <repo-adı> <url>` (ör. `luppo ar Stable https://stable2.antolun.com`)
+- [x] **Depo ekle:** `luppo ar <repo-adı> <url>` (ör. `luppo ar Stable https://stable2.tuseco.com`)
 - [x] **Depo ekle - hatalı URL:** Geçersiz URL ile ekleme dener, hata mesajı al
 - [x] **Depo listele:** `luppo lr` — aktif depolar yeşil, pasif depolar kırmızı görünmeli
 - [x] **Depo listele (JSON):** `luppo lr --json`

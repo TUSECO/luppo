@@ -1035,7 +1035,7 @@ impl QueryManager {
                 license: "GPLv3".to_string(),
                 packager: luppo_spec::models::Packager {
                     name: "Luppo Team".to_string(),
-                    email: "admin@antolun.com".to_string(),
+                    email: "admin@tuseco.com".to_string(),
                 },
                 deps: luppo_spec::models::Dependencies {
                     runtime: runtime_deps.clone(),

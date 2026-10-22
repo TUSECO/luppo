@@ -56,7 +56,7 @@ impl LuppoRepo {
                     license: "GPL".to_string(),
                     packager: Packager {
                         name: "Luppo Community".to_string(),
-                        email: "info@antolun.com".to_string(),
+                        email: "info@tuseco.com".to_string(),
                     },
                     deps: Dependencies {
                         runtime: runtime_deps_list.clone(),
@@ -436,7 +436,7 @@ fn package_to_definition(pkg: &crate::package::Package) -> PackageDefinition {
         license: "GPL".to_string(),
         packager: luppo_spec::models::Packager {
             name: "Luppo Community".to_string(),
-            email: "info@antolun.com".to_string(),
+            email: "info@tuseco.com".to_string(),
         },
         deps: luppo_spec::models::Dependencies {
             runtime: runtime_deps_list.clone(),
@@ -637,7 +637,7 @@ mod tests {
             license: "GPL".to_string(),
             packager: Packager {
                 name: "Luppo Test".to_string(),
-                email: "test@antolun.com".to_string(),
+                email: "test@tuseco.com".to_string(),
             },
             deps: Dependencies {
                 runtime: runtime_deps.iter().map(|s| s.to_string()).collect(),

@@ -1,10 +1,10 @@
 LuppoPackage {
     Source {
         Name "luppo"
-        Homepage "https://github.com/Antolun/luppo"
+        Homepage "https://github.com/TUSECO/luppo"
         Packager {
-            Name "Antolun"
-            Email "admin@antolun.com"
+            Name "TUSECO"
+            Email "admin@tuseco.com"
         }
         License "GPL-3.0-or-later"
         Summary "LupuS package manager (Rust implementation)"
@@ -14,7 +14,7 @@ LuppoPackage {
             Isa "app:console"
         }
             Archive sha1sum="to-be-filled" {
-                "https://github.com/Antolun/luppo/archive/v4.0.0.tar.gz"
+                "https://github.com/TUSECO/luppo/archive/v4.0.0.tar.gz"
             }
         BuildDependencies {
         Dependency "rust" version-from=">=1.70.0"
@@ -60,8 +60,8 @@ LuppoPackage {
         Update release=1 date="2026-06-23" {
             Version "4.0.0"
             Comment "Initial release of luppo as a system package."
-            Name "Antolun"
-            Email "admin@antolun.com"
+            Name "TUSECO"
+            Email "admin@tuseco.com"
         }
     }
 }

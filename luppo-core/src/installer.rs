@@ -897,7 +897,7 @@ impl Installer {
                             .updates
                             .first()
                             .and_then(|u| u.email.clone())
-                            .unwrap_or_else(|| "info@antolun.com".to_string()),
+                            .unwrap_or_else(|| "info@tuseco.com".to_string()),
                     },
                     deps: luppo_spec::models::Dependencies {
                         runtime: runtime_deps_list.clone(),

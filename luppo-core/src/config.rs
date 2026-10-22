@@ -83,7 +83,7 @@ impl Default for Config {
                 cxx: "g++".to_string(),
                 compressionlevel: 9,
                 enablesandbox: true,
-                fallback: "http://source.antolun.com".to_string(),
+                fallback: "http://source.tuseco.com".to_string(),
                 generatedebug: false,
                 jobs: "-j4".to_string(),
                 ldflags: "".to_string(),

@@ -1503,7 +1503,7 @@ fn handle_version() -> LuppoResult<()> {
         t!("main_version_field_dev_value")
     );
     println!(
-        "{:<15}: https://antolun.com",
+        "{:<15}: https://tuseco.com",
         t!("main_version_field_web")
     );
     println!("{:-<40}", "");

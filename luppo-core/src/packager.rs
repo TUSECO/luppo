@@ -568,7 +568,7 @@ impl Packager {
             screenshot: None,
             packager: Some(crate::package::Packager {
                 name: m_name,
-                email: m_email.unwrap_or_else(|| "info@antolun.com".to_string()),
+                email: m_email.unwrap_or_else(|| "info@tuseco.com".to_string()),
             }),
             source: None,
             install_tar_hash: None,

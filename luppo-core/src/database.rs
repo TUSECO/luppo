@@ -669,7 +669,7 @@ mod tests {
         let (db, _dir) = setup_test_db();
         let repo = RepositoryEntry {
             name: "test-repo".to_string(),
-            url: "https://repo.antolun.com".to_string(),
+            url: "https://repo.tuseco.com".to_string(),
             mirrors: Vec::new(),
             enabled: true,
         };

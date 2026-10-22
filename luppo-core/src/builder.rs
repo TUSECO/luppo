@@ -62,7 +62,7 @@ impl PackageBuilder {
                     date: Local::now().format("%Y-%m-%d").to_string(),
                     name: "Luppo Build System".to_string(),
                     comment: "First release".to_string(),
-                    email: Some("admin@antolun.com".to_string()),
+                    email: Some("admin@tuseco.com".to_string()),
                     type_: None,
                     requires: None,
                 }],
@@ -531,7 +531,7 @@ impl PackageBuilder {
             license: "GPL-3.0".to_string(),
             packager: SpecPackager {
                 name: "Luppocik".to_string(),
-                email: "luppocik@antolun.com".to_string(),
+                email: "luppocik@tuseco.com".to_string(),
             },
             description: "Geliştirici testi için inşa edildi.".to_string(),
             summary: "Test Amaçlı Paket".to_string(),

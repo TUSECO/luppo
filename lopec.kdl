@@ -2,8 +2,8 @@ LuppoPackage {
     Source {
         Name "libreoffice"
         Packager {
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
         License "LGPLv3"
         Summary "LibreOffice office suite"

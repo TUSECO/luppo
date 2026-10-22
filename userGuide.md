@@ -37,7 +37,7 @@ luppo [SEÇENEKLER] <KOMUT> [PARAMETRELER]
 
 ```bash
 # Depo ekle
-sudo luppo add-repo core https://repo.antolun.com/core/luppo-index.xml
+sudo luppo add-repo core https://repo.tuseco.com/core/luppo-index.xml
 
 # Depo indeksini güncelle
 sudo luppo update-repo

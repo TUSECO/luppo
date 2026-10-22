@@ -95,8 +95,8 @@ Source {
     Name "freetype"
     Homepage "https://www.freetype.org/"
     Packager {
-        Name "Antolun Community"
-        Email "admins@antolun.com"
+        Name "TUSECO"
+        Email "admins@tuseco.com"
     }
     License "FTL"
     License "GPLv2"
@@ -332,7 +332,7 @@ History {
         Version "1.0.1"
         Comment "Güvenlik yamaları uygulandı."
         Name "Luppo Topluluğu"
-        Email "admin@antolun.com"
+        Email "admin@tuseco.com"
         Type "security"
         Requires "systemRestart"
     }
@@ -340,7 +340,7 @@ History {
         Version "1.0.0"
         Comment "İlk sürüm."
         Name "Luppo Topluluğu"
-        Email "admin@antolun.com"
+        Email "admin@tuseco.com"
     }
 }
 ```
@@ -671,16 +671,16 @@ component "system" {
     summary lang="en" "Base system components"
     description lang="en" "Core system packages"
     group "system"
-    maintainer-name "Antolun Community"
-    maintainer-email "admins@antolun.com"
+    maintainer-name "TUSECO"
+    maintainer-email "admins@tuseco.com"
 }
 
 component "kernel.tools" {
     local-name lang="en" "Kernel Tools"
     summary lang="en" "Kernel tools; perf, cpupowertools"
     group "system"
-    maintainer-name "Antolun Community"
-    maintainer-email "admins@antolun.com"
+    maintainer-name "TUSECO"
+    maintainer-email "admins@tuseco.com"
 }
 ```
 
@@ -740,8 +740,8 @@ LuppoPackage {
         Name "disktype"
         Homepage "https://disktype.sourceforge.net/"
         Packager {
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
         License "MIT"
         Summary "Detect content format of a disk or disk image"
@@ -769,8 +769,8 @@ LuppoPackage {
         Update release=1 date="2026-01-01" {
             Version "9"
             Comment "Initial package."
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
     }
 }
@@ -817,8 +817,8 @@ LuppoPackage {
         Update release=1 date="2026-06-22" {
             Version "20260622"
             Comment "Release 20260622."
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
     }
 }
@@ -858,8 +858,8 @@ LuppoPackage {
         Update release=1 date="2026-01-01" {
             Version "6.30.223.271"
             Comment "Initial package."
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
     }
 }

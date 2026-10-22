@@ -288,7 +288,7 @@ impl Repository {
         let base_url = if !pkg.repo_url.is_empty() {
             pkg.repo_url.trim_end_matches('/').to_string()
         } else {
-            "https://stable2.antolun.com".to_string()
+            "https://stable2.tuseco.com".to_string()
         };
 
         // --- YANSİMA (MIRROR) SEÇİMİ ---

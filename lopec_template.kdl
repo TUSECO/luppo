@@ -3,8 +3,8 @@ LuppoPackage {
         Name "ornek-paket"
         Homepage "https://www.ornek.com"
         Packager {
-            Name "Antolun Community"
-            Email "admins@antolun.com"
+            Name "TUSECO"
+            Email "admins@tuseco.com"
         }
         License "GPL-2.0-or-later"
         Summary "Paketin çok kısa bir özeti"
@@ -90,14 +90,14 @@ LuppoPackage {
         Update release=2 date="2026-05-18" {
             Version "1.0.1"
             Comment "Güvenlik yamaları uygulandı ve gereksiz bağımlılıklar kaldırıldı."
-            Name "Antolun Community"
-            Email "admin@antolun.com"
+            Name "TUSECO"
+            Email "admin@tuseco.com"
         }
         Update release=1 date="2026-05-17" {
             Version "1.0.0"
             Comment "LupuS için ilk sürüm."
-            Name "Antolun Community"
-            Email "admin@antolun.com"
+            Name "TUSECO"
+            Email "admin@tuseco.com"
         }
     }
 }
